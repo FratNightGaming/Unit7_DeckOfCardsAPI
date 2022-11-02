@@ -1,0 +1,21 @@
+﻿@model Deck
+
+<h2 style="text-align:center">Here's your Draw!</h2>
+
+<h1 style="text-align:center; background-color:aqua; color: rebeccapurple; border: 2px dotted red; padding: 30px;";">Cards Remaining: @Model.remaining</h1>
+
+@foreach (Card card in Model.cards)
+{
+    <div>@*This div does nothing to the format of page...*@
+        <p>@card.value of @card.suit</p>
+        <img src="@card.image">
+        <br />
+        <br />
+    </div>
+   
+}
+
+<!--I can't get the deck to take five additional cards; the deck resets with each call-->
+<form>
+    <input style="padding: 30px;" type="submit" value="Draw 5 more cards" asp-action="DrawCards" asp-controller="Home" asp-route-id="@Model.deck_id" />
+</form>

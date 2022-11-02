@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PFopoynmqqUuGAUD9zJPSeY967AF17eUxcamI2h2uPOS0RmfGLqxXFty/YxALc2VxJcGZ6+V/T51eIISNTEuqQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\berge\\OneDrive\\Desktop\\Grand Circus\\Labs\\Unit 7\\DeckOfCardsAPI\\DeckOfCardsAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\berge\\.nuget\\packages\\restsharp\\108.0.2\\restsharp.108.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
